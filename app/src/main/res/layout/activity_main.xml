@@ -1,9 +1,10 @@
 <FrameLayout
 
-		tools:context = "com.nullcognition.udacityandroiddesignfordevelopers.MainActivity"
-		xmlns:android = "http://schemas.android.com/apk/res/android"
-		xmlns:tools = "http://schemas.android.com/tools"
-	 android:layout_height="match_parent" android:layout_width="match_parent">
+	android:layout_height = "match_parent"
+	android:layout_width = "match_parent" tools:context = "com.nullcognition.udacityandroiddesignfordevelopers.MainActivity"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto" xmlns:tools = "http://schemas.android.com/tools"
+	>
 
 	<ScrollView
 		android:layout_height = "match_parent"
@@ -11,37 +12,38 @@
 		>
 
 		<LinearLayout
-			android:id="@+id/linearLayout"
+
 			android:divider = "#ffffff"
 			android:dividerPadding = "34dp"
 			android:focusable = "false"
+			android:id = "@+id/linearLayout"
 			android:layout_height = "wrap_content"
 			android:layout_width = "match_parent"
 			android:orientation = "vertical"
 			>
 
 			<!--<FrameLayout-->
-				<!--android:background = "#ded6ff"-->
-				<!--android:elevation = "4dp" android:layout_height = "160dp"-->
-				<!--android:layout_width = "match_parent"-->
-				<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
-				<!--/>-->
+			<!--android:background = "#ded6ff"-->
+			<!--android:elevation = "4dp" android:layout_height = "160dp"-->
+			<!--android:layout_width = "match_parent"-->
+			<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
+			<!--/>-->
 
 			<!--<FrameLayout-->
 
-				<!--android:background = "#ded6ff"-->
-				<!--android:elevation = "16dp" android:layout_height = "160dp"-->
-				<!--android:layout_width = "match_parent"-->
-				<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
-				<!--/>-->
+			<!--android:background = "#ded6ff"-->
+			<!--android:elevation = "16dp" android:layout_height = "160dp"-->
+			<!--android:layout_width = "match_parent"-->
+			<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
+			<!--/>-->
 
 			<!--<FrameLayout-->
 
-				<!--android:background = "#ded6ff"-->
-				<!--android:elevation = "64dp" android:layout_height = "160dp"-->
-				<!--android:layout_width = "match_parent"-->
-				<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
-				<!--/>-->
+			<!--android:background = "#ded6ff"-->
+			<!--android:elevation = "64dp" android:layout_height = "160dp"-->
+			<!--android:layout_width = "match_parent"-->
+			<!--android:padding = "@dimen/abc_action_bar_content_inset_material"-->
+			<!--/>-->
 
 		</LinearLayout>
 	</ScrollView>
